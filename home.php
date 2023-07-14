@@ -95,61 +95,11 @@ include 'components/save_send.php';
 
 <!-- home section ends -->
 
-<!-- services section starts  -->
-
-<section class="services">
-
-   <h1 class="heading">our services</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/icon-1.png" alt="">
-         <h3>buy house</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-2.png" alt="">
-         <h3>rent house</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-3.png" alt="">
-         <h3>sell house</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-4.png" alt="">
-         <h3>flats and buildings</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-5.png" alt="">
-         <h3>shops and malls</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
-      </div>
-
-      <div class="box">
-         <img src="images/icon-6.png" alt="">
-         <h3>24/7 service</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- services section ends -->
-
 <!-- listings section starts  -->
 
 <section class="listings">
 
-   <h1 class="heading">latest listings</h1>
+   <h1 class="heading">Venues</h1>
 
    <div class="box-container">
       <?php
@@ -223,10 +173,10 @@ include 'components/save_send.php';
             <div class="flex">
                <p><i class="fas fa-house"></i><span><?= $fetch_property['type']; ?></span></p>
                <p><i class="fas fa-tag"></i><span><?= $fetch_property['offer']; ?></span></p>
-               <p><i class="fas fa-bed"></i><span><?= $fetch_property['bhk']; ?> BHK</span></p>
+               <p><i class="fas fa-bed"></i><span><?= $fetch_property['bhk']; ?> </span></p>
                <p><i class="fas fa-trowel"></i><span><?= $fetch_property['status']; ?></span></p>
                <p><i class="fas fa-couch"></i><span><?= $fetch_property['furnished']; ?></span></p>
-               <p><i class="fas fa-maximize"></i><span><?= $fetch_property['carpet']; ?>sqft</span></p>
+               <p><i class="fas fa-maximize"></i><span><?= $fetch_property['carpet']; ?></span></p>
             </div>
             <div class="flex-btn">
                <a href="view_property.php?get_id=<?= $fetch_property['id']; ?>" class="btn">view property</a>

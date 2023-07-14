@@ -11,7 +11,7 @@
          </div>
 
          <ul>
-            <li><a href="post_property.php">Post a venue<i class="fa-solid fa-paper-plane-top"></i></a></li>
+            <li><a href="post_property.php">Post a venue<i class="fa-solid fa-paper-plane"></i></a></li>
          </ul>
       </section>
    </nav>
@@ -22,24 +22,24 @@
 
          <div class="menu">
             <ul>
-            <li><a href="#">Home<i class="fas fa-angle-down"></i></a>
-               <li><a href="#">my listings<i class="fas fa-angle-down"></i></a>
+            <li><a href="home.php">Home</a>
+               <li><a href="#">My listings<i class="fas fa-angle-down"></i></a>
                   <ul>
-                     <li><a href="dashboard.php">dashboard</a></li>
-                     <li><a href="post_property.php">post property</a></li>
-                     <li><a href="my_listings.php">my listings</a></li>
+                     <li><a href="dashboard.php">Dashboard</a></li>
+                     <li><a href="post_property.php">Post venue</a></li>
+                     <li><a href="my_listings.php">My posts</a></li>
                   </ul>
                </li>
-               <li><a href="#">options<i class="fas fa-angle-down"></i></a>
+               <li><a href="#">Events<i class="fas fa-angle-down"></i></a>
                   <ul>
-                     <li><a href="search.php">filter search</a></li>
-                     <li><a href="listings.php">all listings</a></li>
+                     <li><a href="search.php">Filter search</a></li>
+                     <li><a href="listings.php">All venues</a></li>
                   </ul>
                </li>
-               <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+               <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
                   <ul>
-                     <li><a href="about.php">about us</a></i></li>
-                     <li><a href="contact.php">contact us</a></i></li>
+                     <li><a href="about.php">About us</a></i></li>
+                     <li><a href="contact.php">Feedback</a></i></li>
                      <li><a href="contact.php#faq">FAQ</a></i></li>
                   </ul>
                </li>
@@ -50,10 +50,10 @@
             <li><a href="saved.php">Favorites<i class="far fa-heart"></i></a></li>
             <li><a href="#"><div class="fas fa-user"></div> </a>
                <ul>
-                  <li><a href="login.php">login now</a></li>
-                  <li><a href="register.php">register new</a></li>
+                  <li><a href="login.php">Login</a></li>
+                  <li><a href="register.php">rRegister</a></li>
                   <?php if($user_id != ''){ ?>
-                  <li><a href="update.php">update profile</a></li>
+                  <li><a href="update.php">Update profile</a></li>
                   <li><a href="components/user_logout.php" onclick="return confirm('logout from this website?');">logout</a>
                   <?php } ?></li>
                </ul>

@@ -18,7 +18,7 @@ include 'components/save_send.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>All Listings</title>
+   <title>Venues</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -35,7 +35,7 @@ include 'components/save_send.php';
 
 <section class="listings">
 
-   <h1 class="heading">all listings</h1>
+   <h1 class="heading">All venues</h1>
 
    <div class="box-container">
       <?php

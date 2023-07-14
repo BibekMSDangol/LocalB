@@ -34,7 +34,7 @@ include 'components/save_send.php';
 
 <section class="listings">
 
-   <h1 class="heading">saved listings</h1>
+   <h1 class="heading">Favorites</h1>
 
    <div class="box-container">
       <?php
@@ -85,7 +85,7 @@ include 'components/save_send.php';
             <?php
                if($select_saved->rowCount() > 0){
             ?>
-            <button type="submit" name="save" class="save"><i class="fas fa-heart"></i><span>remove from saved</span></button>
+            <button type="submit" name="save" class="save"><i class="fas fa-heart"></i><span>Remove from favorites</span></button>
             <?php
                }else{ 
             ?>
